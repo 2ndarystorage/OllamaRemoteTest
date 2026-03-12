@@ -24,3 +24,15 @@
 
 **Completion Status**
 - Prototype. Basic GUI and request flow only; no configuration, persistence, or tests.
+
+**Program Summary**
+- Tkinter desktop UI that posts a single user prompt to a locally running Ollama chat endpoint and streams the reply into a text widget.
+- Hardcoded endpoint `http://localhost:11434/api/chat` and model `deepseek-r1:14b`; no config or persistence.
+
+**How to Use**
+- Not verified.
+- Install Python and `requests`, ensure Ollama is running locally with the `deepseek-r1:14b` model available.
+- Run `python ollamaApiTest.py`, enter a prompt, and click `送信`.
+
+**Completion Status**
+- Prototype. Single script with hardcoded settings and minimal error handling; no tests or packaging.
